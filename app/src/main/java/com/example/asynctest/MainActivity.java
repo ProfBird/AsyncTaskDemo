@@ -22,7 +22,7 @@ public class MainActivity extends Activity implements OnClickListener {
         setContentView(R.layout.activity_main);
         
         testTextView = (TextView) findViewById(R.id.testTextView);
-        testTextView.setText("The beginning of the test");
+        testTextView.setText("A slow async task is being started");
         testButton = (Button) findViewById(R.id.testButton);
         testButton.setOnClickListener(this);
         
